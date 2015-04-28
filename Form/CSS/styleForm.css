@@ -1,0 +1,87 @@
+﻿body {
+    margin: 30px;
+    /*background: #D1D1D1;*/
+    background-image: url('bg.jpg');
+    background-size:cover;
+}
+
+#content {
+        position:relative;
+        margin:50px auto;   
+        width:400px;
+        min-height:200px;
+        z-index:100;
+        padding:30px;
+        border:1px solid #383838;   
+        background: #D1D1D1;
+        background: repeating-linear-gradient(-45deg, #00CC99 , #00CC99 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px,#F2F2F2 70px, #F2F2F2 80px);
+        border-radius:8px;
+        box-shadow:0px 1px 6px #3F3F3F;
+}
+ #content::after{
+
+        background:#F9F9F9;
+        opacity: 0.9;
+        margin:10px;
+        position: absolute;
+       content : " ";
+       bottom: 0;
+        left: 0;
+       right: 0;
+        top: 0;
+         z-index: -1; 
+      border:1px #E5E5E5 solid;       
+      border-radius:8px;
+    }
+ 
+h1 {
+    font-family: 'Times New Roman';
+text-align:center;
+font-size:40px;
+padding:0;
+margin:0 0 20px 0;
+position:relative;
+
+}
+h1:after {
+font-size:25px;
+color:black;
+content: '--------- & ---------';
+text-align:center;
+display:block;
+width:100%;
+font-family: 'Alice', Verdana, serif;
+text-shadow: 0px 1px 0px #fff;
+}
+
+h4 {
+text-align: center;
+font-family: 'Times New Roman';
+}
+#submit {
+    padding-top:10px;
+    padding-left:156.5px;
+}
+label {
+     display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+textarea {
+    vertical-align:top;
+    width: 300px;
+    height:70px;
+    max-width:300px;
+    max-height:70px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.in {
+    width: 300px;
+}
+.pad {
+    padding-bottom:10px;
+}
+.error {
+    color: red;
+}
