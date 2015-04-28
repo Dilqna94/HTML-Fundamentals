@@ -1,0 +1,25 @@
+/*-- Main table -- */
+#mainTable{
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+th{
+    font-size: 22px;
+    border-bottom: 2px solid #000000;
+}
+a{
+    color: #3395ca;
+}
+
+/* -- Nested table 1 -- */
+#nestedTable{
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#secondNestedTable{
+    width: 100px;
+}

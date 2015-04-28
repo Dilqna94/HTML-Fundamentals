@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+ <link href="reg_form_style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<form>
+         <table>
+            <tr>
+                <th>Last Name</th>
+                <td>
+                        <input class="text"  type="text" name="lastName">
+                </td>
+            </tr>
+             <tr>
+                 <th>First Name</th>
+                 <td>
+                         <input class="text" type="text" name="firstName">
+                 </td>
+             </tr>
+             <tr>
+                 <th>Address</th>
+                 <td>
+                         <textarea placeholder="write your Addres here"></textarea>
+                 </td>
+             </tr>
+             <tr>
+                 <th>City</th>
+                 <td>
+                         <input type="text" >
+                         <label for="state">State</label>
+                         <input type="text" id="state" class="shortText">
+                 </td>
+             </tr>
+             <tr>
+                 <th>Zip/Postal Code</th>
+                 <td>
+                         <input type="text" class="text"  name="postCode">
+                 </td>
+             </tr>
+             <tr>
+                 <th>Country</th>
+                 <td>
+                          <select>
+                              <option selected="selected" value="1">Bulgaria</option>
+                              <option value="2">UK</option>
+                              <option value="3">US</option>
+                          </select>
+                 </td>
+             </tr>
+             <tr>
+                 <th>Phone(country code, area code, number)</th>
+                 <td>
+                        (+ <input type="text" class="shortText" pattern="^[0-9]+$">)
+                         <input type="text" class="shortText" pattern="^[0-9]+$">
+                         <input type="text" pattern="^[0-9]+$">
+                 </td>
+             </tr>
+             <tr>
+                 <th>E-mail</th>
+                 <td>
+                         <input type="email" class="text" >
+                 </td>
+             </tr>
+             <tr>
+                 <th>Birth date</th>
+                 <td>
+                         <input type="date">
+                 </td>
+             </tr>
+             <tr>
+                 <th>Gneder</th>
+                 <td>
+                         <select name="gender">
+                             <option value="0">Male</option>
+                             <option value="1">Female</option>
+                             <option value="2">Other</option>
+                         </select>
+                 </td>
+             </tr>
+             <tr>
+                 <th>Staring date</th>
+                 <td>
+                         <input type="radio" name="sprDate" id="spring">
+                         <label for="spring"> Spring 2015</label>
+                         <input type="radio" name="sprDate" id="summer">
+                         <label for="summer"> Summer 2015 </label>
+                 </td>
+             </tr>
+             <tr>
+                 <th>Comments/Questions</th>
+                 <td>
+                         <textarea placeholder="write here..."></textarea>
+                 </td>
+             </tr>
+             <tfoot>
+             <td colspan="2">
+
+                     <button>Submit</button>
+                     <input type="reset" name="btnReset" value="Reset the form" >
+
+             </td>
+             </tfoot>
+         </table>
+</form>
+</body>
+</html>

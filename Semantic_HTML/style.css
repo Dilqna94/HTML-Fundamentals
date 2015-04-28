@@ -1,0 +1,10 @@
+table{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+#title{
+    display: inline-block;
+}
+img{
+    vertical-align: top;
+}

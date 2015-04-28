@@ -1,0 +1,25 @@
+
+table,td, th{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 2px;
+}
+th{
+    width: 150px;
+}
+td{
+    width: 300px;
+}
+textarea{
+    min-height: 70px;
+    min-width: 280px;
+}
+.text{
+    width: 280px;
+}
+.shortText{
+    width: 40px;
+}
+tfoot{
+    background: #51b7ca;
+}
